@@ -1,1 +1,11 @@
 language: php
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: 
+    secure: "AKIAJBRVN7EIE7YNUQ5Q"
+  secret_access_key:
+    secure: "wk+FQA5BohpEoPleJuRrLabexXEDySbuIMcfeBtD"
+  region: "ap-northeast-2"  
+  app: "example-app-name"
+  env: "example-app-environment"
+  bucket_name: "haroldlaravel"
