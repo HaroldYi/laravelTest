@@ -1,4 +1,9 @@
 language: php
+before_script:
+    - composer install
+  php:
+  - 7.0
+  - 7.1
 deploy:
   provider: elasticbeanstalk
   access_key_id: 
